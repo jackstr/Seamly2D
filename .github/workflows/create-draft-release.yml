@@ -13,6 +13,9 @@ jobs:
         uses: jackstr/release-changelog@v1
         with:
           who-to-greet: 'Mona the Octocat'
+            #GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          myToken: ${{ secrets.GITHUB_TOKEN }}
+          startRelease: 'ttt'
 
       #  env:
       #- uses: release-drafter/release-drafter@v5
