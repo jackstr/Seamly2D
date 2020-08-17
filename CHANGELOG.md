@@ -1,6 +1,6 @@
 ## Version 0.6.1
 
-- [#682] New feature. Export increments to Excel .csv.
+- [#682](https://github.com/jackstr/Seamly2D/issues/3) New feature. Export increments to Excel .csv.
 - [#681] Enhance feature: Dashed line options for curves, arcs, etc.
 - [#684] Proposal: Add option to only show outer edges on detail.
 - [#244] New feature: Adjust line and point thickness and label size.
