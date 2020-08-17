@@ -1,3 +1,38 @@
+## Version v0.7.26
+
+* [#285] Build issue: cleanup unused build files for distributions
+* [#279] Installer doesn't create seamly2d folders
+* [#266] Delete unused build (*.yml) files
+* [#255] Appveyor.yml gives errors.
+
+## Version v0.7.25
+
+* [#285] Build issue: cleanup unused build files for distributions
+* [#279] Installer doesn't create seamly2d folders
+* [#266] Delete unused build (*.yml) files
+* [#255] Appveyor.yml gives errors.
+
+## Version v0.7.24
+
+* [#285] Build issue: cleanup unused build files for distributions
+* [#279] Installer doesn't create seamly2d folders
+* [#266] Delete unused build (*.yml) files
+* [#255] Appveyor.yml gives errors.
+
+## Version v0.7.23
+
+* [#285] Build issue: cleanup unused build files for distributions
+* [#279] Installer doesn't create seamly2d folders
+* [#266] Delete unused build (*.yml) files
+* [#255] Appveyor.yml gives errors.
+
+## Version v0.7.22
+
+* [#285] Build issue: cleanup unused build files for distributions
+* [#279] Installer doesn't create seamly2d folders
+* [#266] Delete unused build (*.yml) files
+* [#255] Appveyor.yml gives errors.
+
 ## Version 0.6.1
 
 - [#682](https://github.com/jackstr/Seamly2D/issues/3) New feature. Export increments to Excel .csv.
