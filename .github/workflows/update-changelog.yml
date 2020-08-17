@@ -2,10 +2,18 @@ name: Update Changelog file
 
 on: [workflow_dispatch]
 
+env:
+  RUNNER_DEBUG: 1
+
 jobs:
   update-changelog-pull-request:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: jackstr/changelog-updater@master
+      - name: Making test changes
+        run: |
+          now=$(date '+%Y%m%d%H%M%S.%N')
+          echo $now > $now
+          ls -al
       - uses: jackstr/create-pull-request@master
