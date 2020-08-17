@@ -11,4 +11,17 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: jackstr/update-changelog@master
+      - run: |
+        git status
+        echo --------------------------------------
+        cat CHANGELOG.md
+        echo --------------------------------------
       - uses: jackstr/create-pull-request@master
+        with:
+          branch: update-changelog
+          branch-suffix: timestamp
+          title: Update CHANGELOG.md
+          body: |
+            Updates CHANGELOG with latest versions.
+
+            This is automatically generated pull request.
