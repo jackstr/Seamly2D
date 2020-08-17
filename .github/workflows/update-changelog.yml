@@ -12,8 +12,10 @@ jobs:
       - uses: actions/checkout@v2
       - uses: jackstr/update-changelog@master
       - run: |
-        git status
-        cat CHANGELOG.md
+          git status
+          echo '--------------------------------------'
+          cat CHANGELOG.md
+          echo '--------------------------------------'
       - uses: jackstr/create-pull-request@master
         with:
           branch: update-changelog
