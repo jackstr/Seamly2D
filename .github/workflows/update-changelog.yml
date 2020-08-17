@@ -13,9 +13,9 @@ jobs:
       - uses: jackstr/update-changelog@master
       - run: |
         git status
-        echo --------------------------------------
+        echo '--------------------------------------'
         cat CHANGELOG.md
-        echo --------------------------------------
+        echo '--------------------------------------'
       - uses: jackstr/create-pull-request@master
         with:
           branch: update-changelog
