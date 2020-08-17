@@ -1,0 +1,13 @@
+name: Create draft release
+
+on: [workflow_dispatch]
+
+env:
+  RUNNER_DEBUG: 1
+
+jobs:
+  create-draft-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: jackstr/create-draft-release@master
