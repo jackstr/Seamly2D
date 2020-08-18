@@ -1,3 +1,7 @@
+## Version 0.6.1.0
+
+Test
+
 ## Version 0.6.1
 
 - [#682](https://github.com/jackstr/Seamly2D/issues/3) New feature. Export increments to Excel .csv.
