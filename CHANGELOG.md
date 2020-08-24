@@ -1,3 +1,7 @@
+## Version v0.7.27
+
+* [#3](https://github.com/jackstr/Seamly2D/issues/3) Issue 2
+
 ## Version 0.6.1.0
 
 Test
